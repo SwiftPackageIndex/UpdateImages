@@ -78,7 +78,7 @@ struct Update: AsyncParsableCommand {
     }
 
     func pathToOutputFile() -> String {
-        outputDirectory.appendingPathComponent(path: "FrontEnd/styles/images.scss").expandingTildes()
+        outputDirectory.appendingPathComponent(path: "FrontEnd/styles/_images.scss").expandingTildes()
     }
 }
 
